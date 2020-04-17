@@ -42,7 +42,7 @@ class SignupActivity : AppCompatActivity() {
                         var userObject = t
 
                         for (i in userObject.indices) {
-                          
+                         
 
                             if (userObject[i].mobileno?.equals(et_mobile_no.text.toString())!!) {
                                 isExist = true
