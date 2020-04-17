@@ -42,8 +42,7 @@ class SignupActivity : AppCompatActivity() {
                         var userObject = t
 
                         for (i in userObject.indices) {
-                            Log.v("data :", userObject[i]?.mobileno)
-                            // print("List  $userObject[i].mobileno")
+                          
 
                             if (userObject[i].mobileno?.equals(et_mobile_no.text.toString())!!) {
                                 isExist = true
